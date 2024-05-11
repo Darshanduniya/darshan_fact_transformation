@@ -1,0 +1,16 @@
+Edited Sales: Let's say a customer purchases two laptops at $800 each. The total sales revenue from this transaction would be $1600.
+Edited Units: In this scenario, two units of laptops were sold in the transaction.
+Edited Inventory: Before this transaction, the store had 10 laptops in stock. After selling two laptops, the inventory level would be reduced to 8 units.
+Sample Input:
+
+Edited Sales: $1600
+Edited Units: 2
+Edited Inventory (before transaction): 10
+Sample Output (after the transaction):
+
+Edited Inventory: 8
+This example illustrates how these columns work together:
+
+Edited Sales shows the revenue generated from the sale.
+Edited Units indicates the quantity of products sold.
+Edited Inventory reflects the updated inventory level after the transaction, helping the retailer keep track of stock levels.
