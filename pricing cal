@@ -1,0 +1,23 @@
+
+projected_units_units	projected_sales_units	Result Explanation	Output
+0.5	1.5	Condition 1 met	1.50
+0	2.0	Condition 2 met	0.00
+2	10	Else condition met	5.00
+-0.7	1.2	Condition 1 met	1.20
+0	0	Condition 2 met	0.00
+3	-9	Else condition met	3.00
+0.3	0.7	Condition 1 not met, use Else condition	2.33
+Detailed Output Computation
+Row 1:
+
+ABS(0.5) = 0.5, which is between 0 and 1.
+ABS(1.5) = 1.5, which is greater than or equal to 1.
+Therefore, the result is ROUND(ABS(1.5), 2) = 1.50.
+Row 2:
+
+ABS(0) = 0, which matches Condition 2.
+Therefore, the result is 0.00.
+Row 3:
+
+Conditions 1 and 2 are not met.
+Therefore, the result is ROUND(ABS(10)/ABS(2), 2) = 5.00.
